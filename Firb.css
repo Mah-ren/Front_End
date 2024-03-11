@@ -36,5 +36,53 @@
 
     border: 4px #ffa945 solid;
     border-bottom: none;
+}
+
+.face::before{
+    
+    /* ! writint the content is a must if you wrote before or after */
+    content: '';
+    height: 14px;
+    width: 14px;
+
+    background-color: #fce2c4;
+
+    position: absolute;
+    top: 170px;
+    left: -14px;
+
+    border-left: 6px solid #ffa945;
+    border-bottom: 4px solid #ffa945;
+    border-right: none;
+
+    transform: skew(-40deg);
+    border-bottom-left-radius: 10px;
+}
+
+.face::after{
+
+    content: '';
+
+    right: 30px;
+    left: 15px;
+    height: 25px;
+    width: 22px;
+
+    background: #fce2c4;
+
+    position: absolute;
+    top:30%;
+    left: 97%;
+
+
+    border-top: #ffa945 3px solid;
+    border-bottom: #ffa945 3px solid;
+    border-right: #ffa945 6px solid;
+    border-left: none;
+
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+
+    
     
 }
