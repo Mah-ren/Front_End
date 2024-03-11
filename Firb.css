@@ -11,9 +11,9 @@
     transform: translate(-60%, -60%);
     
     /* ! first value is right and the second is bottom and then الضبابية*/
-    box-shadow: 116px 110px 10px #d7d7d7 ;
+    box-shadow: 16px 16px 15px #d7d7d7 ;
     
 
-    /* border-radius: 20px ; */
-    
+    border-radius: 20px ;
 }
+
