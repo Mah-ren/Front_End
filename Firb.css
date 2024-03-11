@@ -11,9 +11,133 @@
     transform: translate(-60%, -60%);
     
     /* ! first value is right and the second is bottom and then الضبابية*/
-    box-shadow: 116px 110px 10px #d7d7d7 ;
+    box-shadow: 16px 16px 15px #d7d7d7 ;
     
 
-    /* border-radius: 20px ; */
-    
+    border-radius: 20px ;
 }
+
+.face{
+
+    /* ! relative to the parent  */
+    position: relative;
+
+    height: 250px;
+    width: 60px;
+
+    background: #fce2c4;
+
+    top: 50%;
+    left: 50%;
+
+    translate: -50% -50%;
+
+    rotate: 4deg;
+
+    border: 4px #ffa945 solid;
+    border-bottom: none;
+}
+
+.face::before{
+    
+    /* ! writint the content is a must if you wrote before or after */
+    content: '';
+    height: 14px;
+    width: 14px;
+
+    background-color: #fce2c4;
+
+    position: absolute;
+    top: 170px;
+    left: -14px;
+
+    border-left: 6px solid #ffa945;
+    border-bottom: 4px solid #ffa945;
+    border-right: none;
+
+    transform: skew(-40deg);
+    border-bottom-left-radius: 10px;
+}
+
+.face::after{
+
+    content: '';
+
+    right: 30px;
+    left: 15px;
+    height: 25px;
+    width: 22px;
+
+    background: #fce2c4;
+
+    position: absolute;
+    top:30%;
+    left: 97%;
+
+
+    border-top: #ffa945 3px solid;
+    border-bottom: #ffa945 3px solid;
+    border-right: #ffa945 6px solid;
+    border-left: none;
+
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.left_eye{
+
+    height: 40px;
+    width: 40px;
+
+    background-color: white;
+    border: black solid 4px;
+    border-radius: 40px;
+
+    position: absolute;
+    top: 32%;
+    left: 45%;
+
+
+
+
+}
+.internal_left_eye{
+
+    height: 5px;
+    width: 2px;
+
+    background-color: white;
+    border-top: 2px black solid;
+    border-right: 3px black solid;
+    border-bottom: 7px black solid;
+    border-left: 4px black solid;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 30%;
+    left: 45%;
+
+    
+    
+ }
+
+ .nose{
+
+    height: 60px;
+    width: 75px;
+    
+    background-color: #fce2c4;
+    border: #ffa945 solid 4px;
+    border-right: none;
+
+    position: absolute;
+    top: 37%;
+    left: 29.8%;
+
+    border-radius: 20px;
+
+    rotateX: -5deg;
+    transform: skew(-5deg);
+
+}
+
