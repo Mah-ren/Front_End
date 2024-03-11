@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+onload = function(){
+
+    document.querySelector('h5').style.color = 'red';
+}
+
+//! print in html   lesson3  
+document.write("hello html");
+
+
+//! print in the console
+console.log('hello console');
+
+
+//! pop up a notification 
+// window.alert('hello window ');
+
+//! concatination +
+//* this is the old way
+=======
+>>>>>>> temp
 // onload function to change the color of h5 tag
 window.onload = function() {
 document.querySelector('h5').style.color = 'red';
@@ -14,19 +37,45 @@ console.log('hello console');
 
 // concatination +
 // old way
+<<<<<<< HEAD
+=======
+>>>>>>> f007b92 (today is 3 march the first day of ramadan 3:23 am and wanted to make the firb character with css and the moonlight with css and wanted to do what i've learnt)
+>>>>>>> temp
 let name = "Mahmoud Ahmed";
 let age = 20;
 console.log('this is the old way: My name is' + ' ' + name + 'and my age is ' + age);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+//* this is modern way 
+console.log(`this is modern way: my name is ${name} and my age is ${age}`);
+
+//! calculation
+=======
+>>>>>>> temp
 // modern way
 console.log(`this is modern way: my name is ${name} and my age is ${age}`);
 
 // calculation
+<<<<<<< HEAD
+=======
+>>>>>>> f007b92 (today is 3 march the first day of ramadan 3:23 am and wanted to make the firb character with css and the moonlight with css and wanted to do what i've learnt)
+>>>>>>> temp
 let num = 10;
 console.log(num++);
 console.log(num);
 
+<<<<<<< HEAD
 // converting the text to number
+=======
+<<<<<<< HEAD
+
+//! converting the text to number
+=======
+// converting the text to number
+>>>>>>> f007b92 (today is 3 march the first day of ramadan 3:23 am and wanted to make the firb character with css and the moonlight with css and wanted to do what i've learnt)
+>>>>>>> temp
 console.log(+'5' + +'4');
 console.log('5' - '4');
 console.log('5' * '4');
@@ -34,7 +83,15 @@ console.log('5' / '4');
 console.log('if you added a number to string, it\'ll give you a Not a Number like this: = ');
 console.log('5' - 'ahmed');
 
+<<<<<<< HEAD
 // other ways to convert the '59' to 59
+=======
+<<<<<<< HEAD
+//! other ways to convert the '59' to 59
+=======
+// other ways to convert the '59' to 59
+>>>>>>> f007b92 (today is 3 march the first day of ramadan 3:23 am and wanted to make the firb character with css and the moonlight with css and wanted to do what i've learnt)
+>>>>>>> temp
 console.log("this is the first way which is to put a plus sign before the '8' : \n");
 console.log(+'8.5');
 
@@ -47,6 +104,21 @@ console.log(parseInt('8.5'));
 console.log("this is the third way which is to put the '8' parseFloat() : \n");
 console.log(parseFloat('8.5'));
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+//! ways to convert the number to string 
+let x = 10;
+console.log(typeof toString(x));
+
+//* another way to convert the number to string to put the number between braces and then dot toString()
+console.log(typeof (100).toString());
+
+//* another way to convert the number to string: to write the number and then two dots toString()
+console.log(typeof 100..toString());
+=======
+>>>>>>> temp
 // ways to convert the number to string
 let x = 10;
 console.log(typeof toString(x));
@@ -161,3 +233,7 @@ for (let z = 0; z < 2; z++) {
 
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<<<<<<< HEAD
+=======
+>>>>>>> f007b92 (today is 3 march the first day of ramadan 3:23 am and wanted to make the firb character with css and the moonlight with css and wanted to do what i've learnt)
+>>>>>>> temp
