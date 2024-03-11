@@ -121,7 +121,7 @@
     
  }
 
- .nose{
+.nose{
 
     height: 60px;
     width: 75px;
@@ -136,8 +136,11 @@
 
     border-radius: 20px;
 
-    rotateX: -5deg;
-    transform: skew(-5deg);
+    /*
+    ! مش محتاج اخليها تدور
+    ! rotate: 5deg; 
+    */
+    transform: skew(-10deg);
 
-}
+} 
 
