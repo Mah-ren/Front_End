@@ -1,0 +1,19 @@
+.container{
+
+    height: 500px;
+    width: 500px;
+    background-color: #f0f0f0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-60%, -60%);
+    
+    /* ! first value is right and the second is bottom and then الضبابية*/
+    box-shadow: 116px 110px 10px #d7d7d7 ;
+    
+
+    /* border-radius: 20px ; */
+    
+}

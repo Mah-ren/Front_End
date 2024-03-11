@@ -1,0 +1,29 @@
+body{
+    background-color: gold;
+}
+.container{
+    width: 60%;
+    height: 70%;
+    background-color: black;    
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.moon{
+    height: 50%;
+    width: 50%;
+    
+    background-color: ;
+    /* ! at push right push bottom */
+    background:radial-gradient(circle 300px at 210px 190px , white 40%, rgb(109, 72, 188) 40%, transparent 85%, black 100%);
+    
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    transform:translate(-70%, -70%);
+
+}
