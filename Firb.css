@@ -17,4 +17,24 @@
     border-radius: 20px ;
 }
 
- 
+.face{
+
+    /* ! relative to the parent  */
+    position: relative;
+
+    height: 250px;
+    width: 60px;
+
+    background: #fce2c4;
+
+    top: 50%;
+    left: 50%;
+
+    translate: -50% -50%;
+
+    rotate: 4deg;
+
+    border: 4px #ffa945 solid;
+    border-bottom: none;
+    
+}
