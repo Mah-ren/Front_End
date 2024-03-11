@@ -86,8 +86,8 @@
 
 .left_eye{
 
-    height: 40px;
-    width: 40px;
+    height: 37px;
+    width: 37px;
 
     background-color: white;
     border: black solid 4px;
@@ -98,7 +98,8 @@
     left: 45%;
 
 
-
+    /* z-index: 1; */
+    z-index: 3;
 
 }
 .internal_left_eye{
@@ -115,21 +116,61 @@
 
     position: absolute;
     top: 30%;
-    left: 45%;
+    left: 42%;
 
-    
     
  }
-
  
+ 
+.right_eye{
+
+    height: 40px;
+    width: 35px;
+
+    background-color: white;
+    border: black solid 4px;
+    border-radius: 40px;
+
+    position: absolute;
+    top: 32%;
+    left: 40%;
+
+    z-index: 1;
+
+
+}
+
+.internal_right_eye{
+
+    height: 5px;
+    width: 3px;
+
+    background-color: white;
+    border-top: 2px black solid;
+    border-right: 3px black solid;
+    border-bottom: 7px black solid;
+    border-left: 4px black solid;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 45%;
+    left: 37%;
+
+    
+    
+}
+
+
+
+
 .nose{
     height: 50px;
-    width: 65px;
+    width: 72px;
     
     background-color: #fce2c4;
     border: #ffa945 solid 4px;
     border-right: none;
-
+    
     position: absolute;
     top: 39%;
     left: 31%;
@@ -138,5 +179,6 @@
     rotate: 3deg;
     transform: skew(-5deg);
 
+    
+    z-index: 2;
 }
-
