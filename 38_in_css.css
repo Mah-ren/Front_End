@@ -1,0 +1,17 @@
+a {
+    background-color: red;
+}
+  
+  /* 
+  ! 1) [attr] -> [type]
+  ! 2) element[attr] -> input[type]
+  ! 3) [attr = "value"] -> [type = "www.facebook.com"]
+  ! 4) element[attr = "value"] -> input[type = "www.facebook.com"]
+  ! 5) [attr ^= "value"] -> [type ^= "www"] -> start with
+  ! 6) [attr $= "value"] -> [type $= "www"] -> end with
+  ! 7) [attr *= "value"] -> [type *= "www"] -> containing specified value
+  ! 8) [attr ~= "value"] -> [type ~= "www"] -> containing specified word
+  ! 9) [attr = "value" i] -> [type = "www" i] -> incase-sensitive
+  */
+  
+ 

@@ -1,0 +1,349 @@
+.egypt_flag{
+    height: 100px;    
+    border: 3px rgb(110, 170, 21) inset;
+    
+    background-image: linear-gradient(to bottom, red 33.5%, white 33.5% 67%, black 67%);
+    background-image: radial-gradient(circle 20px at center,yellow);
+    margin-bottom: 50px;
+    
+    
+    position: sticky;
+    top: 0px;
+
+    /*
+     !  دلوقتي لما بعمل بوزيشن استيكي و التوب صفر بيخلي علم مصر يختفي و انا عازوه يظهر لذلك هستخدم الزد اندكس و هخليها رقم 1
+     !  لكن لو ظهرت صورة الشمس هخليها تظهر فوق العلم
+    */
+    z-index: 1;
+}
+
+.linear_gradient{
+    height: 100px;    
+    border: 3px rgb(110, 170, 21) inset;
+    /* ! transparent = شفاف  */
+    background-image: linear-gradient(to bottom,rgb(13, 98, 64), transparent);
+    margin-bottom: 50px;
+
+    position: sticky;
+    top: 0px;
+
+    /* ! transition */
+    transition: all 1s ease-in-out .2s;
+    
+    
+}
+
+.linear_gradient:hover{
+    height: 300px;    
+    border: 3px rgb(110, 170, 21) inset;
+    background-image: linear-gradient(to bottom, rgb(10, 242, 149), transparent);
+    
+}
+
+.radial_gradient{
+    height: 100px;
+    border: 2px rgb(110, 170, 21) inset;
+    
+    background-image:radial-gradient(circle 30px at 160px top, red 30%, orange 50%, yellow 95%);
+    margin-bottom: 50px;
+    
+    
+    position: sticky;
+    top: 0px;
+
+    z-index: 2;
+
+    /* ! transition */
+    transition: all 2s ease-in-out .1s;
+}
+
+.radial_gradient:hover{
+    
+    height: 200px;
+    border: 3px rgb(110, 170, 21) inset;
+    /* ! نصف قطر الدائرة ثم ات الموقع */
+    background-image:radial-gradient(circle 90px at 480px top, red 30%, orange 50%, yellow 95%);
+
+}
+
+.float_parent{
+    background-color: #ff0;
+
+    
+    position: sticky;
+    top: 0px;
+}
+
+.float_parent > .red{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    float: left;
+
+    
+    position: sticky;
+    top: 0px;
+}
+
+.float_parent > .green{
+    background-color: #0f0;
+    width: 50px;
+    height: 50px;
+    float: left;
+    
+    
+    position: sticky;
+    top: 10px;
+}
+
+.float_parent > .blue{
+    background-color: #00f;
+    width: 50px;
+    height: 50px;
+    float: left;
+    
+    position: sticky;
+    top: 10px;
+}
+
+#clear{
+    clear: both ;
+}
+
+.overflow{
+    background-color: #f9c;
+    border: royalblue 3px inset;
+    width: 300px;
+    height: 600px;
+    overflow: auto;
+    margin-bottom: 500px;
+    
+    /* position: sticky;
+    top: 10px; */
+}
+
+
+/* ! هرسم علم مصر و هخلي كل عنصر ينزل لما اعمل اسكرول عن طريق البوسيشن ستيكي  */
+/* ! ما هو مصير المكان الأصلي؟ */
+/* ! حركة العنصر ستكون نسبة لمين؟ */
+
+
+/* todo position relative: تحافظ على المكان الأصلي و العنصر بيأخذ عرض الأب */
+/* todo position relative: بالنسبة لنفسه */
+
+/* todo position absolute:   لا يحافظ على مكانه الأصلي و عرض العنصر على حسب المحتوى */
+/* todo position absolute:   على حسب الشاشة يعني لو الأب مش واخد بوزيشن يبقى على حسب الشاشة لو الأب واخد بوزيشن اي بوزيشن مش مهم نوع البوزيشن باستثناء الاستاتيك" يبقى على حسب الأب   */
+
+/* todo position fixed: لا تحافظ على المكان الأصلي و العنصر بيأخذ و العرض بيكون فت كونتنت*/
+/* todo position fixed: بالنسبة للشاشة لكن لو الطول كبير و هتعمل اسكرول فهتلاقي إنه ثابت مكانه*/
+
+/* todo position sticky: العنصر مش بيتحرك إلا لما تعمل سكرول و التوب يساوي الرقم اللي كتبته ساعتها يفضل ثابت لحد ما طول الأب ينتهي  */
+/* todo position sticky:  */
+
+/* ! دلوقتي هعمل المشروع اللي هو علم مصر ينزل معايا لحد مالصفحة تنتهي عن طريق الاستيكي بوزيشن وهخلي كل حاجة تنزل */
+
+table{
+    border-spacing: 0px ;
+
+    width: 100%;
+    
+
+}
+
+th{
+    background-color: #f6c;
+    height: 30px;
+    text-align: left;    
+    border: tomato 2px solid;
+
+
+    
+}
+
+td{
+    background-color: #f9c;
+    height: 30px;
+    text-align: left;    
+    vertical-align: middle;
+    border: tomato 2px solid;
+
+
+}
+
+#empty_box{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+
+/* ! لو الماوس عليه */
+.egypt_flag:hover{
+    background: url(bride1.png) no-repeat left/contain ;
+}
+
+/* ! ضغطة مطولة  */
+.egypt_flag:active{
+    background: url(bride2.png) no-repeat left/contain ;
+}
+
+/* ! لو العنصر مفهوش اي حاجة يعني حتى مفهوش ابناء  */
+#empty_box:empty{
+    background: skyblue url(bride2.png) no-repeat right/contain;
+}
+
+#username:focus, #username:hover{
+    background-color: yellow;
+    outline-color: rgb(236, 199, 54);
+    outline-width: 2px;
+}
+
+
+#password:focus, #password:hover{
+    background-color: rgb(154, 205, 50);
+    outline-color: rgb(139, 243, 4);
+    outline-width: 2px;
+}
+ 
+#email:focus, #email:hover{
+    background-color: rgb(0, 157, 255);
+    outline-color: rgb(15, 116, 189);
+    outline-width: 2px;
+}
+
+#username:disabled{
+    background-color: red;
+}
+
+#password:disabled{
+    background-color: red;
+}
+
+#email:invalid{
+    background-color: red;
+}
+
+#checkbox:checked{
+    position: absolute;
+    right: 0;
+}
+
+/* ! in selections and elements you don't need to write the asterisk *, instead, you don't write anything */
+:empty{
+    background-color: tomato;
+}
+
+.paragraph::first-line{
+    background-color: #f6c;
+    color:gold;
+}
+
+.paragraph::selection{
+    background-color: rgb(55, 112, 225);
+    color: gold;
+}
+
+.paragraph::first-letter{
+    background-color: blueviolet;
+    color: black;
+    font-size: 100px;
+}
+
+.paragraph::before{
+    content: 'Love';
+    font-size: 25px;
+    background-color: skyblue;
+
+}
+
+/* ! or you can add an image in the content: */
+.paragraph::before{
+    content: url(small-bride1.png);
+    background-color: skyblue;
+}
+
+/* ! لو عاوز تستخدم الباك كلر يبقى لازم تستخدم الكونتنت حتى لو مش هتكتب حاجة */
+/* todo  و محتاج تحدد الطول و العرض (1*/
+/* todo  و محتاج تحدد البوزيشن (2*/
+
+.paragraph{
+    margin-bottom: 200px;
+
+}
+
+.empty_p{
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
+
+.empty_p::before{
+    content: '';
+    background-color: crimson;
+    position: absolute ;
+    height: 20%;
+    width: 100%;    
+    bottom: 0;
+}
+
+
+/* ! for sibling you write the + and you effect on the bro that comes after the + */
+.sibling_h + .sibling_p{
+    background-color: black;
+    color: white;
+}
+
+/* ! for brother you write the  ~  and you effect on the bro that comes after the ~ */
+.brother_h ~ .brother_p{
+    background-color: black;
+    color: red;
+}
+
+
+.transform{
+    /* font-size: 50px; */
+    height: 100px;
+    width: 100px;
+    background-color:coral;
+    border: gold 10px solid;
+    border-radius: 25px;
+
+    /* ! translate = move(x,y) default value is 0,0 if a value is negitave, will hide part of the x or y, depend on what value is */ 
+    transform: translate(100px, 200px);
+
+
+    /* ! scale default value is 1 and it takes one value, and it take two values the first is  width, second is height  */
+    /* ! and you can write scaleX(value of width) or scaleY(value of height) */
+    transform: scale(2,1.5);
+
+    /* ! rotate = دوران و نستخدم الdeg يعني الدرجة  , and you can use rotatex and rotatey*/
+    transform: rotatex(30deg);
+    transform: rotatey(60deg);
+
+    /* ! skew = الانحراف */
+    transform: skew(20deg, 20deg);
+
+    
+    /* 
+    !       transform: matrix(scalex, skewx, skewy, scaley, translatex, translatey)
+    todo    the default value of all of them is 0 except the scale is 1
+    todo    and you don't need to writ the units of them like px or deg 
+    */
+    transform: matrix(1.9, 0, 0, 1, 300, 100);
+
+    /* !  and you can write the translate, rotate ,and the scale without writing "transform: scale();      */  
+    
+}
+
+/*
+
+! transition: 
+! ease: slow -> fast -> slowly
+! linear: same speed
+! ease in: slow start
+! ease out: slow end
+! ease in out: slow start and end
+! cubic bezier(n,n,n,n) enter the  values by your self
+
+*/

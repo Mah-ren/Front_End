@@ -1,0 +1,43 @@
+
+*{
+    font-size: 20px;
+}
+
+body{
+    font-size: 20px;
+}
+
+.img_rere, .img_pro{
+
+    height: 400px;
+    width: 400px;
+
+}
+
+.link_youtube{
+
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: black 5px solid;
+    font-style:oblique;
+    
+}
+.link_google{
+    
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: black 5px solid;
+    font-style:oblique;
+
+}
+.link_facebook{
+    
+    color: white;
+    background-color:royalblue;
+    border-radius: 10px;
+    border: black 5px solid;
+    font-style:oblique;
+
+}

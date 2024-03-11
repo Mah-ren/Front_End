@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+ 
+body{
+    background-color:yellow;
+}
+
+.rere{
+    font-family: "Lemonada", cursive;
+    font-size:x-large;
+    background-color:violet;
+    color:black;
+    border: 10px crimson ;
+    border-style:inset;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 70px 10px ;
+    
+    /*!the text align for block elements cause they has the width of the parent like the div, p, and h1-h6 */
+    /*! but the inline elements doesn't have width of the parent like the span */
+    
+    text-align:center;
+    margin-bottom: 100px;
+
+    /*! direction if you wanna write in arabic */
+    /*!transforming*/
+    text-transform: capitalize;
+
+    /*! spacing (letter, word, lines)*/
+    /* letter-spacing: 10px; */
+    /* word-spacing: 10px; */
+    line-height: 5  0px;
+
+    
+    /*! this is the white space: has pre and pre-line and there is wordrap: has  */
+    
+
+
+}
+
+#renad{
+    font-weight: bolder;
+    font-style: italic;
+}
+.mybelove{
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    background-color: tomato;
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 30px;
+    border: inset violet 15px;
+    
+    
+    /* ! text decoration  */
+    margin-bottom: 100px;
+    text-decoration: blueviolet underline dotted;
+    
+    
+    text-shadow: 2px 10px 5px white ;
+    
+    
+    
+}
+
+
+.box{
+    background-color: rosybrown;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    box-shadow: -1px -1px 10px 2px red,
+                -10px -10px 10px 2px blue;
+    border-radius: 10px 70px;
+}
+
+#text1{
+    font-size: xx-large;
+    /*! font-variant بتحول حروف النص لحروف كبيرة لكن مش بتأثر على حجم   */
+    font-variant:small-caps;
+
+
+}
+
+#text2{
+    font-size: xx-large;
+    /*! text-transform بتحول حروف النص لحروف كبيرة لكن بتخلي الحجم كبير  */
+    text-transform: uppercase;
+}
+
+/* !shorthand font */
+#shorthand_font{
+
+    /* todo font: font-style font-variant font-weight font-size/line-height font-family     مش مهم الترتيب*/
+    /* ! f ss vw */
+    font-family: "Dancing Script", cursive;
+    font: italic 58px/200px small bolder;
+
+    
+    
+}
