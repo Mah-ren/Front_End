@@ -1,0 +1,77 @@
+.parent{
+
+    background-color: red;
+    padding: 10px;
+    height: 500px;    
+
+    /* ! أهم كود عشان الباقي يشتغل من غيره كل الخصائص مش هتشتغل  */
+    display: inline-flex; 
+
+    /* 
+    ! اتجاه العناصر يعني ممكن 
+    ! سف او صف معكوس  
+    ! عمود او عمود معكوس
+    */
+    flex-direction: row;
+
+    /*
+    ! ده بيلف العناصر بالإطار يعني لو نوراب يبقى هيخلي العناصر تختفي في حالة إنها خرجت عن اطار الصفحة 
+    ! و في راب ريفرس يعني يخلي العناصر اللي هتخرج عن الصفحة تطلع فوق بدلا من إنها تنزل 
+    */
+    flex-wrap: wrap-reverse;
+
+    /* 
+    ! you can write flex-flow: flex-direction flex-wrap: ; 
+    */
+    flex-flow: row wrap;
+
+    /* 
+    ! justify-content بتتحكم في مكان العناصر لو اتجاه العناصر افقي يبقى هتتحكم في اتجاههم افقيا يعني على محور السينات
+    */
+    justify-content: space-evenly;
+    
+    /*
+    ! عشان تشغل الألين كونتنت يبقى لازم تعمل راب 
+    ! لذلك لو عندك عناصر كثيرة و عاوز تعمل لها راب يبقى تستخدم الألين ايتمز
+    ! كمان الآلين كونتنت بتعمل مركزية للمحتوى لكن الايتمز مش بتعمل كده
+    */
+    
+    /* align-items: center; */
+    align-content: center;
+   
+
+
+    
+}
+
+.parent div{
+
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.item1{
+
+    background-color: burlywood;
+
+}
+
+.item2{
+    
+    background-color: coral;
+
+}
+
+.item3{
+    
+    background-color: gold;
+
+}
+
+.item4{
+    
+    background-color: blueviolet;
+
+}
+

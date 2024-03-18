@@ -1,0 +1,64 @@
+.container{
+
+    height: 250px;
+    width: 200px;
+    
+    background-color: rgb(169, 187, 203);
+    border-radius: 20px;
+    margin: 100px auto;
+    
+    /*! animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: CV 3s linear 1s 1 normal backwards running;
+
+
+}
+
+@keyframes CV {
+    
+    0%{
+        rotate: 0deg;
+    }
+
+    20%{
+        rotate: 80deg;
+
+    }
+    40%{
+        rotate: 160deg;
+    }
+    60%{
+        rotate: 240deg;
+    }
+    80%{
+        rotate: 360deg;
+    }
+    
+}
+
+
+.Avatar{
+
+    height: 100px;
+    width: 100px;
+
+    border: 4px solid goldenrod;
+    border-radius: 50px;
+
+    margin-left: 40px;
+
+}
+
+.name{
+    
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.title{
+
+    font-size: 15px;
+    text-align: center;
+
+
+}

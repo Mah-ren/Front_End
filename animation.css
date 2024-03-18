@@ -15,7 +15,7 @@
 
     /* ! لو عاوز المربع يبدأ عد تنازلي */
     animation-direction: reverse;
-
+    animation-timing-function:linear;
     /* ! لو عاوزه المربع يتحرك في الاتجاه الصحيح ثم يرجع ثاني */
     animation-direction: alternate;
 

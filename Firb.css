@@ -1,21 +1,22 @@
 .container{
 
-    height: 500px;
-    width: 500px;
+    height: 80%;
+    width: 85%;
     background-color: #f0f0f0;
 
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 60%;
 
     transform: translate(-60%, -60%);
     
-    /* ! first value is right and the second is bottom and then الضبابية*/
+    /* ! first value is right and the second is bottom and then الضبابية */
     box-shadow: 16px 16px 15px #d7d7d7 ;
     
 
     border-radius: 20px ;
 }
+
 
 .face{
 
@@ -94,15 +95,16 @@
     border-radius: 40px;
 
     position: absolute;
-    top: 35%;
-    left: 45%;
+    top: 15%;
+    left: 10%;
 
 
-    /* z-index: 1; */
-    z-index: 3;
+    z-index: 10;
 
 }
-.internal_left_eye{
+.left_eye::before{
+
+    content: '';
 
     height: 5px;
     width: 2px;
@@ -118,9 +120,57 @@
     top: 30%;
     left: 42%;
 
-    
- }
- 
+    /*! animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /*! animation: square 2 linear 1s infinite alternate-reverse both running; */
+    animation-name: internal_left_eye;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+      
+}
+@keyframes internal_left_eye {
+
+    10%{
+        height: 5px;
+        width: 3px;
+
+        
+        background: linear-gradient(to top, red, white);
+        border-top: 2px gold solid;
+        border-right: 3px gold solid;
+        border-bottom: 7px gold solid;
+        border-left: 4px gold solid;
+        border-radius: 5px;
+
+    }
+    50%{
+        height: 10px;
+        width: 6px;
+
+        background: linear-gradient(to top, red, white);
+        border-top: 4px orange solid;
+        border-right: 6px orange solid;
+        border-bottom: 14px orange solid;
+        border-left: 8px orange solid;
+        border-radius: 10px;
+
+    }
+    100%{
+        height: 5px;
+        width: 3px;
+
+        background: linear-gradient(to top, black);
+        border-top: 2px black solid;
+        border-right: 3px black solid;
+        border-bottom: 7px black solid;
+        border-left: 4px black solid;
+        border-radius: 5px;
+
+    }
+}
  
 .right_eye{
 
@@ -132,15 +182,17 @@
     border-radius: 40px;
 
     position: absolute;
-    top: 32%;
-    left: 40%;
+    top: 12%;
+    left: -40%;
 
-    z-index: 1;
+    z-index: 6;
 
 
 }
 
-.internal_right_eye{
+.right_eye::after{
+
+    content: '';
 
     height: 5px;
     width: 3px;
@@ -156,29 +208,318 @@
     top: 45%;
     left: 37%;
 
-    
+    animation-name: internal_right_eye;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
     
 }
 
+@keyframes internal_right_eye {
 
+    10%{
+        height: 5px;
+        width: 3px;
 
+        
+        background: linear-gradient(to top, red, white);
+        border-top: 2px gold solid;
+        border-right: 3px gold solid;
+        border-bottom: 7px gold solid;
+        border-left: 4px gold solid;
+        border-radius: 5px;
+
+    }
+    50%{
+        height: 10px;
+        width: 6px;
+
+        background: linear-gradient(to top, red, white);
+        border-top: 4px orange solid;
+        border-right: 6px orange solid;
+        border-bottom: 14px orange solid;
+        border-left: 8px orange solid;
+        border-radius: 10px;
+
+    }
+    100%{
+        height: 5px;
+        width: 3px;
+
+        background: linear-gradient(to top, black);
+        border-top: 2px black solid;
+        border-right: 3px black solid;
+        border-bottom: 7px black solid;
+        border-left: 4px black solid;
+        border-radius: 5px;
+
+    }
+    
+}
 
 .nose{
     height: 50px;
-    width: 72px;
+    width: 65px;
     
     background-color: #fce2c4;
-    border: #ffa945 solid 4px;
+    border: #ffa945 solid 7px;
     border-right: none;
     
     position: absolute;
-    top: 39%;
-    left: 31%;
+    top: 29%;
+    left: -115%;
 
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     rotate: 3deg;
     transform: skew(-5deg);
 
     
     z-index: 2;
+}
+/*
+! i don't need it 
+.nose::after{
+
+    content: '';
+
+    height: 10px;
+    width: 30px;
+
+
+    background-color: #fce2c4;
+
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+    border-top: #ffa945 7px solid;
+
+} */
+
+
+.hair{
+
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    
+    z-index: 5;
+}
+  
+
+.hair>:nth-child(1){
+
+    height: 10px;
+    width: 100px;
+
+    position: absolute;
+    top: 90px;
+    left: -50px;
+    border: green 50px solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+    rotate: 10deg;
+
+
+
+    
+}
+
+
+.blackbox_ai{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top:60%;
+        left:-90%;
+        background: linear-gradient(45deg, #f9c, #6de);
+        clip-path: polygon(0 0, 50% 50%, 100% 0, 75% 100%, 25% 100%);
+
+        z-index: 10;
+        /*! animation: name duration timing-function delay iteration-count direction fill-mode; */
+        /*! animation: square 2 linear 1s infinite alternate-reverse both running; */
+        animation-name: crown;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: 2;
+
+}
+
+@keyframes crown {
+
+    10%{
+
+        background: linear-gradient(45deg, #6de,  #f9c);
+        
+    }
+    20%{
+        
+        background: linear-gradient(45deg, #f9c, #6de);
+        
+    }
+    30%{
+        
+        background: linear-gradient(45deg, #6de, #f9c);
+
+    }
+    40%{
+
+        background: linear-gradient(45deg, #f9c, #6de);
+        
+        
+    }
+    50%{
+        
+        background: linear-gradient(45deg, #6de, #f9c);
+
+    }
+    60%{
+        
+        background: linear-gradient(45deg, #f9c, #6de);
+
+    }
+    70%{
+
+        background: linear-gradient(45deg, #6de, #f9c);
+        
+
+    }
+    80%{
+        
+        background: linear-gradient(45deg, #f9c, #6de);
+
+    }
+    90%{
+
+        background: linear-gradient(45deg, #6de, #f9c);
+
+        
+    }
+    100%{
+
+        background: linear-gradient(45deg, #f9c, #6de);
+
+    }
+}
+
+/* ! this is the shanap  */
+
+.shanap{
+
+    position: absolute;
+    top: 50px;
+    left: -180px;
+
+    width: 89px;
+    height: 89px;
+
+    color: black;
+
+    border-radius: 50%;
+    box-shadow: 100px 100px 0 0 currentColor,
+                180px 100px 0 0 currentColor;
+                
+    z-index: 20;
+
+
+}
+
+.shanap::before{
+
+    content: '';
+
+    position: absolute;
+    top: 8px;
+    left: -18px;
+
+    height: 89px;
+    width: 190px;
+    border-bottom: 89px solid currentColor;
+    border-radius: 0 0 0 100%;    
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 25%;
+
+    rotate: -10deg;
+    transform-origin: right 200px;
+
+    animation: left_shanap 2s linear 1s infinite;
+
+} 
+
+@keyframes left_shanap {
+    
+    0%{
+        rotate: -10deg;
+    }
+    20%{
+        rotate: -15deg;
+    }
+    40%{
+        rotate: -20deg;
+    }
+    50%{
+        rotate: -25deg;
+    }
+    60%{
+        rotate: -20deg;
+    }
+    80%{
+        rotate: -15deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+}
+
+.shanap::after{
+
+    content: '';
+
+    position: absolute;
+    top: 20%;
+    left: 225%;
+
+    height: 89px;
+    width: 190px;
+    border-bottom: 89px solid currentColor;
+    border-radius: 0 0 100% 0 ;    
+
+    rotate: 10deg;
+    transform-origin: 30px 160px;
+
+    animation: right_shanap 2s linear 1s infinite;
+} 
+
+@keyframes right_shanap {
+    
+    0%{
+        rotate: 10deg;
+    }
+    20%{
+        rotate: 15deg;
+    }
+    40%{
+        rotate: 20deg;
+    }
+    50%{
+        rotate: 25deg;
+    }
+    60%{
+        rotate: 20deg;
+    }
+    80%{
+        rotate: 15deg;
+    }
+    100%{
+        rotate: 10deg;
+    }
 }

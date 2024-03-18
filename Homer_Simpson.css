@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, black 90%, red 99%);
+}
+
+.t-shirt {
+
+    height: 30px;
+    width: 60px;
+    display: flex;
+    background-color: white;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    translate: -50%, -50% ;
+    rotate: 20deg;
+
+
+}
+
+.t-shirt::after {
+    content: '';
+    height: 30px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 40%;
+    right: -50%;
+
+    rotate: -35deg;
+}
+
+.face_border {
+
+    height: 130px;
+    width: 68px;
+
+    background-color: gold;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+    rotate: -20deg;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+
+
+}
