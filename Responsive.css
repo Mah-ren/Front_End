@@ -1,0 +1,33 @@
+.parent{
+    background-color: tomato;
+    color: blue;
+    justify-content: left;
+    display: flex;
+    gap: 30px;
+}
+.item{
+    background-color: aqua;
+    width: 150px;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .parent{
+        flex-direction: column;
+    }
+    .item{
+        background-color: yellowgreen;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px){
+    .parent{
+        flex-wrap: wrap;
+    }
+    .item{
+        background-color: brown;
+        width: 49%;
+    }
+}

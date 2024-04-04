@@ -1,0 +1,209 @@
+body {
+    background-color: #003;
+    /* background-color: #fff; */
+    height: 100vh;
+
+}
+
+form {
+    /* background-color: green; */
+    background-color: #0000889f;
+    padding: 10px;
+
+}
+
+
+form div {
+    /* background-color: red;     */
+    height: 100%;
+    width: 100%;
+    height: 10vh;
+    margin: 2px 0px;
+    padding: 5px 2px;
+
+    transition: .5s;
+}
+
+form input {
+    background-color: rgba(0, 0, 170, 0.305);
+    /* background-color: rgba(255, 255, 0, 0.996); */
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 99%;
+    /* height: 100%; */
+
+    height: 10vh;
+    position: relative;
+    
+
+}
+ 
+
+form input::placeholder {
+    color: #ffffffda;
+}
+
+form input:hover{
+    background-color: rgba(7, 81, 230, 0.992);
+}
+
+form input:focus-visible{
+    animation: focus-visible .4s ease-in-out 0s 1 normal both running;
+}
+
+@keyframes focus-visible {
+
+    0% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 99%;
+    }
+    5% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 95%;
+    }
+    
+    10% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 90%;
+    }
+    15% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 85%;
+    }
+
+    20% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 80%;
+    }
+    25% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 75%;
+    }
+
+    30% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 70%;
+    }
+    35% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 65%;
+    }
+
+    40% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 60%;
+    }
+    45% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 55%;
+    }
+
+    50% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 50%;
+    }
+
+    55% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 45%;
+    }
+    60% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 40%;
+    }
+    65% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 35%;
+    }
+
+    70% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 30%;
+    }
+    75% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 25%;
+    }
+
+    80% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 20%;
+    }
+    85% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 15%;
+    }
+
+    90% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 10%;
+    }
+    95% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 5%;
+    }
+
+    99% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 0%;
+    }
+
+    100% {
+        background-color: rgba(7, 81, 230, 0.992);
+        width: 99%;
+    }
+
+
+}
+
+button {
+    color: white;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(94, 119, 157, 0.433);
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: rgba(49, 103, 184, 0.896);
+}
+
+/* 
+@media (max-width: 320px) {
+    form {
+        height: 50%;
+        width: 80%;
+        position: relative;
+        top: 20%;
+        left: 7%;
+        translate: ;
+
+    }
+
+    form div,
+    input {
+        width: 100%;
+        height: 15%;
+        font-size: 25px;
+    }
+
+    form button {
+        font-size: 25px;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        bottom: 0%;
+    }
+} */
+
+/* 
+@media (min-width: 950px) {
+    form input{
+        width: 800px;
+        height: 900px;
+        background-color: red;
+    }
+} */

@@ -236,18 +236,21 @@
     }
 }
 
-.hair{
-
-    position: absolute;
-    top: 10%;
-    left: 10%;
-
-    /* ! i learnt how to draw the hair */
-    /* background-color: aqua; */
-    width: 200px;
-    height: 200px;
-
-    border-bottom: 100px solid red;
-    border-radius: 0 0 0 100%;
-    
-}
+/* 
+! this is how you draw the hair
+!.hair{
+!
+!    position: absolute;
+!    top: 10%;
+!    left: 10%;
+!
+!    ! i learnt how to draw the hair 
+!    ! background-color: aqua; 
+!    width: 200px;
+!    height: 200px;
+!
+!    border-bottom: 100px solid red;
+!    border-radius: 0 0 0 100%;
+!    
+!} 
+*/

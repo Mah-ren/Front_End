@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jallary_local_storage_session_storage_using_js</title>
+    <link rel="stylesheet" href="jallary_local_storage_session_storage_using_js.css">
+</head>
+
+<body>
+
+    <div class="background_color">
+        <div onclick="set_background_color(this.id)" id="red"></div>
+        <div onclick="set_background_color(this.id)" id="green"></div>
+        <div onclick="set_background_color(this.id)" id="blue"></div>
+        <div onclick="set_background_color(this.id)" id="yellow"></div>
+    </div>
+
+
+    <div class="jallary">
+        <div class="upper_images">
+            <img onmouseenter="set_main_image(this.src)" src="images/human_being/young_morning.jpg" alt="">
+            <img onmouseenter="set_main_image(this.src)" src="images/human_being/Indian_boy.jpg" alt="">
+            <img onmouseenter="set_main_image(this.src)" src="images/human_being/Indian_young.jpg" alt="">
+            <img onmouseenter="set_main_image(this.src)" src="images/human_being/young_evening.jpg" alt="">
+        </div>
+
+        <img id="main_image" name="main" src="images/human_being/blond_boy.jpg" alt="">
+
+        <div class="lower_images">
+            <img onclick="set_main_image(this.src)" src="images/human_being/boy.jpg" alt="">
+            <img onclick="set_main_image(this.src)" src="images/human_being/happy_young.jpg" alt="">
+            <img onclick="set_main_image(this.src)" src="images/human_being/Indian_young.jpg" alt="">
+            <img onclick="set_main_image(this.src)" src="images/human_being/young.jpg" alt="">
+        </div>
+
+    </div>
+
+
+
+    <script src="jallary_local_storage_session_storage_using_js.js"></script>
+</body>
+
+</html>

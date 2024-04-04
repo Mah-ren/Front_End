@@ -71,6 +71,8 @@ let mohamed = _ => {
 console.log(mohamed());
 
 //! you can remove the curly braces and return word if you have one line 
+//! this function will return Yousof and '_' cause i don't have parameter, 
+//! but if i have one i'll write it without the braces 
 let yousof = _ =>  'Yousof';
 console.log(yousof());
 
@@ -101,26 +103,25 @@ console.log(car['hello']() + ' ' + car['world']());
 //! you can make an empty object and then fill it 
 let user = {};
 user.name = 'Mahmoud';
+user['age'] = 25;
 console.log(user.name);
+console.log(user.age);
 
 user['calcAgeInDays'] = age => age*365;
 console.log(user.calcAgeInDays(20));
 
 //! fill in object=person2 from object=person1
-let person1 = {
+let person1 = { 
 
-    name:'Mahmoud',
+    name:'person1',
     getName:function() {
         return `hello ${this.name}`;
-    }
+    } 
 
 }
 
 //! you can add another properity : 
-let person2 = Object.create(person1 
-//!       {age:{value:20}
-//!}
-);
+let person2 = Object.create(person1);
 
 
 
@@ -134,3 +135,6 @@ console.log('this is the age of the person2: ' + person2.age);
 //! object.assign(object1, object2, object3) add many objects as you want 
 let big_object = Object.assign(user, person1, person2);
 console.log(big_object);
+console.log(big_object.name);
+console.log(big_object.getName());
+

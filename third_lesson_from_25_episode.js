@@ -34,3 +34,6 @@ if (5 === '5')
 else
     document.write('false');
 
+// ! the different between the switch and if is that switch is comparing the equality i mean that you write the variable after switch 
+//! between the braces and you check if the value in the case == variable but you can't check if the variable >= value 
+//! but you can do this with if 

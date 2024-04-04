@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Playfair Display
+Author: Claus Eggers Sørensen
+Url: https://fonts.google.com/specimen/Playfair+Display
+
+Font: Open Sans
+Author: Steve Matteson
+Url: https://fonts.google.com/specimen/Open+Sans

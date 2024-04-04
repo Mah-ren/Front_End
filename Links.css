@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 50px;
+    transition: .5s;
+}
+
+body{
+    background-color: #123;
+}
+
+header div{
+    position: relative;
+    left: 2.5%;
+
+    padding: 20px 0px;
+}
+
+
+header div h1{
+    padding: 40px 0px;
+
+    margin-bottom: 100px;
+
+    background-color: blue;
+    text-align: center;
+    font-size: 60px;
+    width: 95%;
+    height: 10%;
+    border-radius: 5%;
+
+}
+
+main{
+    align-items: center;
+    gap: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+
+#solar_system_project_link, #portfolio_Website_project_link, #responsive_dashboard_project_link, #adidas_project_link, #shanap_project_link{
+    padding: 20px 0px;
+    margin-top: 10px;
+    text-align: center;
+    
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 2px solid violet;
+
+    transition: .5s;
+}
+
+main ._ div:hover{
+    background-color: rgba(238, 130, 238, 0.875);
+}
+
+iframe{
+
+    margin: 20px 0px;
+    width: 100%;
+    height: 1000px;
+}

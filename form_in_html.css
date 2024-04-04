@@ -1,0 +1,24 @@
+*{
+    background-color: tomato;
+}
+
+#username{
+    background-color: blueviolet;
+}
+
+#username:focus{
+    background-color: blue;
+}
+
+#submit{
+    background-color: aqua;
+
+}
+
+legend{
+    background-color: green;
+}
+
+fieldset{
+    background-color: orchid;
+}

@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+img{
+    width: 30px;
+}
+
+body{
+    background-color: #001;
+    display: flex;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+    /*! ul is the parent of the logout link  i want to make the logout link at the bottom */
+    position: relative;
+
+    /* ! this height is 95% and the parent "menue" is 100vh */
+    height: 95%;
+}
+
+.menue{
+    height: 100vh;
+    background-color: #123;
+    display: flex;
+    width: 65px;
+    overflow: hidden;
+    padding: 20px;
+    transition: .5s;
+    border-radius: 8px;
+}
+
+.menue:hover{
+    width: 370px;
+    border: 2px solid #ffffff55;
+
+}   
+
+ul li a{
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+ul li a:hover, .dashboard, .data-info .box:hover, td:hover{
+    background-color: #ffffff55;
+    /* font-size: 25px; */
+}
+
+.logout-a{
+    position: absolute;
+ 
+    background-color: red;
+    color: blue;
+
+}
+
+
+.logout-a:hover{
+    animation: logout 3s linear .2s infinite backwards running;
+}
+
+@keyframes logout {
+    
+    10%{
+        background-color: #c90a0a;
+    }
+   
+    50%{
+        background-color: orange
+    }
+   
+    80%{
+        background-color: magenta;
+    }
+
+    100%{
+        background-color: red;
+    }
+} 
+
+.profile{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.profile h2{
+    text-transform: capitalize;
+}
+
+.profile img{
+    border-radius: 50%;
+    border: 2px solid white;
+    /*! لو الصورة انكمشت معاك يبقى خلي الانكماش صفر  */
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.content{
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px 5px; */
+
+}
+
+ 
+.title-info{
+    background-color: #048eff;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-info{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    /* position: relative; */
+}
+
+.data-info .box{
+    background-color: #123;
+    display: flex;
+    height: 150px;
+    flex-basis: 150px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    transition: .5s;
+}
+
+.data-info .box .data{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;    
+}
+
+.data-info .box .data span{
+    font-size: 30px;
+}
+
+.data-info .box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+
+
+    /* position: absolute; */
+    translate: 15% 90%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+    padding: 0px;
+    /* margin: 10px 0px; */
+
+}
+
+td, th{
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+    transition: .5s;
+
+}
+
+th{
+    background-color: #0080ff;
+}
+
+
+tbody .price, tbody .count{
+    border-radius: 6px;
+    padding: 6px;
+
+}
+
+tbody .price{
+    background-color: green;
+}
+
+tbody .count{
+    color: #000;
+    background-color: rgba(230, 187, 30, 0.998);
+}
+
+  
+@media (max-width: 650px) {
+    .menue{
+        transition: .5s;
+    }   
+    ul li a{
+        width: 25%;
+        transition: .5s;
+    }    
+    .menue:hover ul li a{
+        width: 90%;
+        font-size: 16px;
+
+    }
+    .logout-a{
+        bottom: -5%;
+    }
+}
+  
+@media (min-width: 650px) and (max-width: 900px){
+    .menue{
+        transition: .5s;
+    }   
+    ul li a{
+        width: 25%;
+        transition: .5s;
+    }    
+    .menue:hover ul li a{
+        width: 90%;
+        font-size: 18px;
+
+    }
+    .logout-a{
+        bottom: -5%;
+    }
+}
+

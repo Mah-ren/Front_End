@@ -1,0 +1,83 @@
+*{
+    text-align: center;
+
+}
+body{
+    background-color: black;
+}
+
+.parent{
+    background-color: magenta;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px 5px;
+
+}
+
+.parent div{
+    background-color:cyan;
+}
+
+.nav, .main, .sidebar{
+    grid-row: 2/4;
+
+}
+.header, .footer{
+    grid-column: 1/-1;
+
+}
+
+/*! and there is another way to do this  */
+.parent2{
+    background-color: tomato;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px 10px;
+    grid-template-areas: 
+    "header2 header2 header2"
+    "nav2 main2 sidebar2"
+    "nav2 main2 sidebar2"
+    "footer2 footer2 footer2"
+    ;
+
+}
+
+.header2{
+    color: black;
+    background-color: violet;
+    grid-area: header2;
+    
+}
+
+.nav2{
+    color: black;
+    background-color: violet;
+    grid-area: nav2;
+}
+
+.main2{
+    color: black;
+    background-color: violet;
+    grid-area: main2;
+}
+
+.sidebar2{
+    color: black;
+    background-color: violet;
+    grid-area: sidebar2;
+}
+
+.footer2{
+    color: black;
+    background-color: violet;
+    grid-area: footer2;
+}
+

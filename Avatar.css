@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*! this is the font of any text in the website  */
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, black, #070988);
+    background-color: black;
+    height: 100vh;
+    width: 3000px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(); */
+}
+
+
+/*! this is the image and the content of the page */
+.container {
+    /*
+    !        i don't need to write the size cause it'll take the size of the parent 
+    todo     
+    todo     
+    */
+    
+    height: 100%;
+    width: 100%; 
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.856) 30%, #00000088),
+    url(avatar2.png);
+    position: relative;
+    left: -10%;
+    
+    background-image:100%;
+
+    /*! make the image at the center of the screen */
+    background-position: center;
+
+    margin: 1000px;
+    
+}
+
+/* ! when i hover the image it turns light */
+.container:hover {
+    
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.856) 30%, transparent 80%, #00000088 95%),    
+    url(avatar2.png);
+    background-repeat: no-repeat;
+    /*! zoom in and zoom out in the middle of the image  */
+    background-position: center;
+    /*
+    ! i don't need to make the size of the image CONTAIN
+    ! background-size: contain; 
+    */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+/*! all the links in the homepage  */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*! the links in the ul  */
+ul a {
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover {
+    border-bottom-color: white;
+}
+
+.content {
+    width: 40%;
+    color: white;    
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    font-size: 20px ;
+    padding-left: 35px;    
+    margin: 5px;
+
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.content p {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    width: 95%;
+    padding-top: 1px;
+    margin-top: 1px;
+
+}
+
+.container button {
+    font-size: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    border-radius: 10px;
+
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+ 
+
+
+
+
+

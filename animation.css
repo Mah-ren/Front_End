@@ -13,18 +13,19 @@
     /* ! عدد التكرارت */
     animation-iteration-count: infinite;
 
-    /* ! لو عاوز المربع يبدأ عد تنازلي */
+    /* ! لو عاوز المربع يبدأ عد تنازلي */   
     animation-direction: reverse;
     animation-timing-function:linear;
     /* ! لو عاوزه المربع يتحرك في الاتجاه الصحيح ثم يرجع ثاني */
     animation-direction: alternate;
-
+    
     /* ! و ممكن يتحرك في الاتجاه المعاكس و يعمل الترنيت */
     animation-direction: alternate-reverse;
-
+    
     /* ! في حاجة اسمها انيميشن فل مود بتتحكم في التنسيق هيكون عامل كيف قبل الانيميشن و كيف بعده  */
     /* ! لو عاوز تخلي التصميم يبدأ بأول نسبة  */
     animation-fill-mode: backwards;
+    
 
     /* ! لو عاوز التصميم ينتهي بأخر نسبة  */
     animation-fill-mode: forwards;
@@ -36,7 +37,7 @@
 
     /* ! و ممكن اختصر الكلام ده كله عن طريق كتابة انيم بالانجليزي ثم تاب و من ثم تدخل القيم*/
     /*! animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: square 2 linear 1s infinite alternate-reverse both running;
+    animation: square 2s linear 1s infinite alternate-reverse both running;
 
 
 

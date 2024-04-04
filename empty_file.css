@@ -1,0 +1,695 @@
+
+@keyframes grandfather {
+ 
+
+    /* 0%{
+        color: white;
+        left: 585px;
+        top: 385px;
+    } */
+    9%{
+        color: #11223355;
+        left: 545px;
+        top: 335px;
+    }
+    18%{
+        color: orange;
+        left: 485px;
+        top: 285px;
+        
+    } 
+    27%{
+        color: gold;
+        left: 385px;
+        top: 285px;
+    }
+    36%{
+        color:yellow;
+        left: 335px;
+        top: 335px;
+    }
+    /* 45%{
+        color: green;
+        left: 335px;
+        top: 385px;
+    } */
+    54%{
+        color: #73ff00;
+        left: 335px;
+        top: 385px;
+    }
+    63%{
+        color: blue;
+        left: 335px;
+        top: 435px;
+    }
+    72%{
+        color: magenta;
+        left: 385px;
+        top: 485px;
+    }
+    81%{
+        color: #4c00ffac;
+        left: 485px;
+        top: 485px;
+    } 
+    /* 100%{
+        color: white;
+        left: 545px;
+        top: 435px;
+    } */
+
+}
+@keyframes grandmother {
+    /* 0%{
+        color: white;
+        left: 335px;
+        top: 385px;
+    } */
+    9%{
+        color: red;
+        left: 335px;
+        top: 435px;
+    }
+    18%{
+        color: orange;
+        left: 385px;
+        top: 485px;
+    }
+    27%{
+        color: gold;
+        left: 485px;
+        top: 485px;
+    } 
+    36%{
+        color: yellow;
+        left: 535px;
+        top: 435px;
+    }
+    /*! this is the spot ot grandfather */
+    /* 45%{
+        color: white;
+        left: 585px;
+        top: 385px;
+    } */
+    54%{
+        color: #73ff00;
+        left: 535px;
+        top: 335px;
+    }
+    63%{
+        color: #00ffaa;
+        left: 485px;
+        top: 285px;
+        
+    } 
+    72%{
+        color: #00fbff;
+        left: 385px;
+        top: 285px;
+        
+    }
+    81%{
+        color:rgb(174, 0, 255);
+        left: 335px;
+        top: 335px;
+    }
+
+    /* 90%{
+        color: #1900ff;
+        left: 335px;
+        top: 385px;
+    } */
+}
+@keyframes and {
+    0%{
+        color: white;
+    } 
+    9%{
+        color: red;
+    } 
+    18%{
+        color: orange;
+    }  
+    27%{
+        color: gold;
+    } 
+    36%{
+        color: yellow;
+    }
+    54%{
+        color: #73ff00;
+    }
+    63%{
+        color: #00ffaa;
+    }
+    72%{
+        color: #00fbff;
+    }
+    81%{
+        color: rgb(174, 0, 255);
+    } 
+    100%{
+        color: rgb(34, 0, 255);
+    }  
+}
+@keyframes ramadan {
+    0%{
+        color: white;
+    } 
+    /*!  fatma */
+    11%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    22%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    33%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    44%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    55%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    66%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    77%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    88%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! ramadan */
+    99%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+}
+@keyframes fatma {
+    0%{
+        color: white;
+    } 
+    
+    /*!  mom */
+    11%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    22%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    33%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    44%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    55%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    66%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    77%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /* ! ramadan */
+    88%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+    /*! fatma */
+    99%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+}
+@keyframes mom {
+    0%{
+        color: white;
+    } 
+    /*!  hasan */
+    11%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    22%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    33%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    44%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    55%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    66%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! return home */
+    77%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+    /*!  fatma */
+    88%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    99%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    
+}
+@keyframes hasan {
+    0%{
+        color: white;
+    } 
+    /*!  abeer */
+    11%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    22%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    33%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    44%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    55%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! ramadan */
+    66%{color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+    /*!  fatma */
+    77%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    88%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    99%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+}
+@keyframes abeer {
+    0%{
+        color: white;
+    } 
+   
+    /*!  eed */
+    11%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    22%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    33%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    44%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! ramadan */
+    55%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    } /*!  fatma */
+    66%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    77%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    88%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    99%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+}
+@keyframes eed {
+    0%{
+        color: white;
+    }
+    /*!  rabea */
+    11%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    22%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    33%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! return home */
+    44%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    } 
+    /*!  fatma */
+    55%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    66%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    77%{ 
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    88%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    99%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+}
+@keyframes rabea {
+    0%{
+        color: white;
+    } 
+   
+    /*! shimaa */
+    11%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    22%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! ramdan */
+    33%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+     /*!  fatma */
+    44%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    55%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    66%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    77%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    88%{ 
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    99%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+}
+@keyframes shimaa {
+    0%{
+        color: white;
+    } 
+    
+    /*!  ali */
+    11%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+    /*! ramadan */
+    22%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+    /*!  fatma */
+    33%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    44%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    55%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    66%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    77%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    88%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    99%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+}
+@keyframes ali {
+    0%{
+        color: white;
+    } 
+    
+    /*! ramadan */
+    11%{
+        color: rgb(34, 0, 255);
+        left: 390px;
+        top: 20px;
+    }
+    /*!  fatma */
+    22%{
+        color: red;
+        left: 140px;
+        top: 130px;
+    }
+    /*!  mom */
+    33%{
+        color: orange;
+        left: 50px;
+        top: 385px;
+    }
+    /*!  hasan */
+    44%{
+        color: gold;
+        left: 100px;
+        top: 580px;
+    }
+    /*!  abeer */
+    55%{
+        color: yellow;
+        left: 360px;
+        top: 680px;
+    }
+    /*!  eed */
+    66%{
+        color: #73ff00;
+        left: 685px;
+        top: 640px;
+    }
+    /*!  rabea */
+    77%{
+        color: #00ffaa;
+        left: 880px;
+        top: 480px;
+    }
+    /*! shimaa */
+    88%{
+        color: #00fbff;
+        left: 830px;
+        top: 250px;
+    }
+    /*!  ali */
+    99%{
+        color: rgb(174, 0, 255);
+        left: 710px;
+        top: 70px;
+    }
+}
+
+/* 
+ul li:hover{
+    animation-play-state: paused;
+} */

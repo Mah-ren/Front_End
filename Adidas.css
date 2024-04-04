@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body{
+    background: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        
+    align-items: center;
+}
+
+body::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+
+    /*! the 70% is the y angle value */
+    clip-path: circle(40%  at right 70%);
+
+    background-color: red;
+    position: absolute;
+    
+    z-index: -1;
+}
+
+.container{
+    height: 80%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    
+    /*! لو حاجة خرجت بره التصميم عاوز اخفيها  */
+    overflow: hidden;
+    position: absolute;
+    transition: .5s;
+}
+
+.container:hover{
+    background-color:rgba(255, 0, 255, 0.6);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    /*!     يمين شمال & فوق تحت */
+    margin: 30px 6px;    
+
+}
+
+
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0px 6px;    
+
+    transition: .4s;
+}
+.logo:hover{
+    color: gold;
+    font-size: 40px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    justify-content: space-between;
+    transition: .5s;
+
+}
+
+
+nav ul li a:hover{
+    color:yellow;
+    font-size: 25px;
+    /* text-decoration: underline  coral; */
+}
+a{
+    text-decoration: none;
+
+}
+
+.content{
+    height: 100%;
+    width: 80%;
+    margin: 80px;
+
+    position: absolute;
+    top: 25%;
+
+
+}
+
+.content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    width: 40%;
+
+}
+
+
+.content .image{
+    width: 44%;
+
+    position: absolute;
+    bottom: 65%;
+    right: -10%;
+
+}
+
+.content .image img{
+    width: 300px;
+}
+
+
+
+@media (max-width: 950px){
+    .content, nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content h2{
+        width: 20%;
+        position: absolute;
+        top: -10%;
+        left: 5%;
+        font-size: 30px;
+    }
+    .content .text p{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .content .image{
+        position: absolute;
+        top: 45%; 
+        left: 10%; 
+    }   
+    .content .image img{
+        width: 200px;
+
+    }
+    body::after{
+        clip-path: circle(50% at bottom);        
+    }   
+} 
+/* 
+@media (min-width: 650px) and (max-width: 985px) {
+    .content .image img{
+        width: 300px;
+    }
+
+} */
