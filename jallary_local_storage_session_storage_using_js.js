@@ -1,20 +1,20 @@
 let main_image = document.getElementById('#main_image');
+
 if(localStorage.length > 0){
     document.body.style.backgroundColor = localStorage.background_color;
     main_image.src = localStorage.image_src;
 }
+
 let set_background_color = function(color){
     // localStorage.setItem('background_color', color);
     document.body.style.backgroundColor = color;
 }
 
-
-
 let set_main_image = function(image_src = "images/human_being/blond_boy.jpg"){
     localStorage.setItem('image_src', image_src);
     main_image.src = image_src;
 }
-
+    
 
 
 

@@ -1,0 +1,17 @@
+#first{
+    color: aqua;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+    writing-mode: vertical-lr;
+    margin: 10px;
+}
+/* 
+! border block creates two border start and end and it doesn't effect by writing mode */
+
+
+#second{
+    color: red;
+    /* writing-mode: vertical-lr; */
+    margin: 10px;
+    border-block: 2px solid red;
+}

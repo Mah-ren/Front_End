@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+body{
+    background-color: #123 ;
+    height: 100vh;
+
+}
+
+.todo-list h1{
+    margin-bottom: 20px;
+    
+}
+
+.todo-list form{
+    margin-bottom: 40px;
+
+}
+
+.todo-list{
+    color: #04fdf9;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+#todo-input, #btn-add-task{
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+#todo-input{
+    width: 70%;
+    outline: none;
+    background-color: #123;
+    color: #04fdf9;
+    border: 2px #04fdf9 solid;
+    transition: .5s;
+    height: 25px;
+
+}
+
+#todo-input:hover{
+    scale: 1.05;
+
+}
+#btn-add-task{
+    width: 15%;
+    height: 40px;
+    background-color: #04fdf9;
+    color: #123;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 10px;
+}
+
+#btn-add-task:hover{
+    border: 2px #04fdf9 solid;
+    scale: 1.05;
+    background-color: #123;
+    outline: none;
+    color: #04fdf9;
+}
+
+#tasks{
+margin-left: 25.5px;
+
+}
+
+#tasks div li{
+    list-style: none;
+}
+#tasks div {
+    border: #04fdf9 1px solid;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 10px;
+    transition: .5s;
+    text-align: center;
+}
+
+#tasks div:hover{
+    background-color: #04fdf9;
+    color: #123;
+}

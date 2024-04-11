@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: animation_background 5s ease 0s infinite none running;
+}
+
+@keyframes animation_background {
+    100%{
+        /* ! you perform one code of filter */
+        filter: hue-rotate(360deg);
+        /* filter: brightness(10); */
+        /* filter: contrast(10); */
+        /* filter:grayscale(120); */
+        /* filter: saturate(2); */
+        
+    }
+}
