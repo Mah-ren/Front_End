@@ -23,21 +23,20 @@
                 <small id="total">0</small>
                 <!--!   small is input -->
             </div>
-            <input id="count" type="text" placeholder="count">
+            <input id="count" type="text" placeholder="count" maxlength="2" >
             <input id="category" type="text" placeholder="category" minlength="4">
             <button id="btn_create">Create</button>
         </div>
         <div class="outputs">
             <div class="search_block">
-                <input type="search" id="search" placeholder="Search">
+                <input onclick="searchFunction(this.value)"  onkeyup="searchFunction(this.value)" type="search" id="search" placeholder="Search">
                 <div class="search_buttons">
-                    <button id="search_by_title">search by title</button>
-                    <button id="search_by_category">search by category</button>
+                    <button onclick="getSearchMood(this.id)" id="title">search by title</button>
+                    <button onclick="getSearchMood(this.id)" id="category">search by category</button>
                 </div>
             </div>
             <table>
                 <div id="div_delete_all">
-                    
                 </div>
 
                 <thead>
@@ -50,7 +49,7 @@
                         <th id="discount">discount</th>
                         <th id="category">category</th>
                         <th id="update">update</th>
-                        <th id="delete">delete</th>
+                        <th id="delete">delete</th> 
                     </tr>
                 </thead >
                 
@@ -61,6 +60,7 @@
             </table>
         </div>
     </div>
+    
     <script src="cruds.js"></script>
 </body>
 </html>

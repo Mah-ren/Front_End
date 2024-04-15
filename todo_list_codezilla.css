@@ -89,3 +89,12 @@ margin-left: 25.5px;
     background-color: #04fdf9;
     color: #123;
 }
+#facebook1, #facebook2{
+    width: 600px;
+    color: #04fdf9;
+    background-color: blue;
+    height: 100px;
+}
+#facebook1:hover, #facebook2:hover{
+    scale: 1.5;
+}
